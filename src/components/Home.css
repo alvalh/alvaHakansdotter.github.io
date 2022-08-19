@@ -1,0 +1,39 @@
+.Home {
+  width: 100vw;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6) url("Kaikoura2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  opacity: 1;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-top: 80px;
+  padding-left: 10%;
+  display: flex;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.Intro {
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+}
+
+.Name {
+  font-size: 50px;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.Role {
+  font-size: 15px;
+  font-family: "Lora";
+  opacity: 0.7;
+  margin: 0;
+}

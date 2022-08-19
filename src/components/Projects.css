@@ -1,0 +1,17 @@
+.Projects {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: url("./tester2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Title {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}

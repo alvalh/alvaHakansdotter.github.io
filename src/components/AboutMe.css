@@ -1,0 +1,24 @@
+.AboutMe {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.aboutDescription {
+  width: 50%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.TypeWriterWrap {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.Typewriter__cursor {
+  color: aliceblue;
+}
