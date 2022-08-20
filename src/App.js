@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <logo style={myText}>A</logo>
+        <logo style={myText}>Alva</logo>
         <buttons>
           <Button style={myButtons} onClick={handleHomeClick}>
             Home
