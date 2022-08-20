@@ -60,13 +60,7 @@ const ContactMe = () => {
         }}
       >
         <input type="submit" title="Send" value="Send" />
-        {success ? (
-          <Alert sx={{ height: "50%" }} severity="success">
-            Sent!
-          </Alert>
-        ) : (
-          <div />
-        )}
+        {success ? <Alert severity="success">Sent!</Alert> : <div />}
       </div>
     </form>
   );

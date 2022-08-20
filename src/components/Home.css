@@ -1,7 +1,7 @@
 .Home {
   width: 100vw;
   min-height: 100vh;
-  background: rgba(0, 0, 0, 0.6) url("Kaikoura2.JPG");
+  background: rgba(0, 0, 0, 0.6) url("./images/Kaikoura.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;

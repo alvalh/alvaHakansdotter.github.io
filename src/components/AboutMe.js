@@ -22,7 +22,7 @@ function AboutMe() {
         technology at KTH in Stockholm. I have experience in both functional and
         object-oriented programming languages. Most of my projects are made with
         Java or React but I also have knowledge of Elixir and C. I am currently
-        looking for new opportunities to learn more and grow as a developer.
+        looking for new opportunities to learn more and grow as a developer!
       </p>
     </div>
   );

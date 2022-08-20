@@ -2,8 +2,8 @@ import React from "react";
 import ContactMe from "./ContactForm/ContactMe.js";
 import "./Contact.css";
 
-import githubLogo from "./githubLogo.png";
-import linkedinLogo from "./linkedinLogo.png";
+import githubLogo from "./images/githubLogo.png";
+import linkedinLogo from "./images/linkedinLogo.png";
 
 function Contact() {
   return (
