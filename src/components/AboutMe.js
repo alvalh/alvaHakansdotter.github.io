@@ -2,8 +2,6 @@ import React from "react";
 import "./AboutMe.css";
 import Typewriter from "typewriter-effect";
 
-const typewriter = ["Student", "Developer", "Designer"];
-
 function AboutMe() {
   return (
     <div className="AboutMe">
