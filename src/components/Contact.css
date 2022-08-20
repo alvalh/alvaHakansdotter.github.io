@@ -1,0 +1,52 @@
+.Contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.Question {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Text {
+  width: 70%;
+  font-size: 20px;
+}
+
+a[type="mailLink"] {
+  color: black;
+  opacity: 0.7;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 5px;
+  align-self: center;
+}
+
+a[type="mailLink"]:hover {
+  color: #27639b;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.Links {
+  align-self: center;
+}
+
+img {
+  width: 30px;
+  padding-bottom: 1rem;
+  padding-right: 0.8rem;
+}
