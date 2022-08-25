@@ -1,17 +1,78 @@
 .Projects {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
   background-image: url("./images/projectsBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .Title {
   font-size: 15px;
   color: white;
   font-weight: 600;
+}
+
+.AllProjects {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.SliderWrap {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.Slider {
+  width: fit-content;
+  display: flex;
+}
+
+.Project {
+  height: fit-content;
+  display: block;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  text-shadow: 2px 2px 10px #000;
+  color: white;
+}
+
+.MiddleDescription {
+  z-index: 0;
+  position: absolute;
+  margin: 6vh;
+  opacity: 0;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.Project img {
+  padding: 0;
+  z-index: 1;
+  height: 50vh;
+  width: 50vh;
+  transition: 0.3s all ease-in-out;
+  backface-visibility: hidden;
+  cursor: pointer;
+  box-shadow: 10px 5px 10px rgb(26, 31, 45);
+}
+
+.Project img:hover {
+  transform: scale(1.1);
+  overflow-y: hidden;
+  opacity: 0.4;
+  box-shadow: 15px 10px 20px rgb(26, 31, 45);
+}
+
+.Project img:hover + .MiddleDescription {
+  opacity: 1;
 }
