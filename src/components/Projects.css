@@ -31,6 +31,7 @@
 }
 
 .Slider {
+  margin: 2rem;
   width: fit-content;
   display: flex;
 }
@@ -49,10 +50,17 @@
 .MiddleDescription {
   z-index: 0;
   position: absolute;
-  margin: 6vh;
   opacity: 0;
   text-align: center;
   transition: 0.3s all ease-in-out;
+}
+
+.MiddleDescription[type="1"] {
+  margin: 6vh;
+}
+
+.MiddleDescription[type="2"] {
+  margin: 4vh;
 }
 
 .Project img {
